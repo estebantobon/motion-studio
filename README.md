@@ -2,7 +2,7 @@
 
 **Free Claude skills that turn a one-line brief into a finished motion graphic.** Ads, tutorials and brand reels as frame-perfect 60fps MP4s in 4:5, 9:16, 1:1 or 16:9 — no After Effects, no editor, no templates to buy.
 
-https://github.com/USERNAME/motion-studio/raw/main/docs/showreel-4x5.mp4
+**[▶ Watch the 15-second showreel](docs/showreel-4x5.mp4)**
 
 <p align="center"><img src="docs/contact-sheet.png" alt="Template pack contact sheet" width="100%"></p>
 
@@ -33,7 +33,7 @@ https://github.com/USERNAME/motion-studio/raw/main/docs/showreel-4x5.mp4
 
 **Claude Code** (recommended — it renders on your machine). Needs Node.js 20+.
 ```sh
-git clone https://github.com/USERNAME/motion-studio.git
+git clone https://github.com/estebantobon/motion-studio.git
 cd motion-studio
 npm run install:skills      # builds and copies both skills to ~/.claude/skills
 ```
