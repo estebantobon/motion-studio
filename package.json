@@ -1,0 +1,33 @@
+{
+  "name": "motion-studio",
+  "version": "1.0.0",
+  "description": "Free Claude skills + Remotion template pack for motion graphics: ads, tutorials and brand reels, powered by three.js, React Three Fiber, GSAP, anime.js, Motion and Lottie.",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "reel": "remotion render src/index.ts PackReel-4x5 out/reel-4x5.mp4",
+    "reel:vertical": "remotion render src/index.ts PackReel-9x16 out/reel-9x16.mp4",
+    "typecheck": "tsc -p .",
+    "build:skills": "bash scripts/build-skills.sh",
+    "install:skills": "bash scripts/install-skills.sh"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.1",
+    "@remotion/cli": "4.0.532",
+    "@remotion/lottie": "4.0.532",
+    "@remotion/three": "4.0.532",
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.0",
+    "lottie-web": "^5.12.2",
+    "motion": "^14.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.532",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^5.6.0"
+  }
+}

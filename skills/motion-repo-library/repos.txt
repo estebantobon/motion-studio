@@ -1,0 +1,8 @@
+# <git-url> | note | license
+https://github.com/blixvip/NullMotion.git | motion ad preview, UI motion templates, draft-to-film workflow | none (all rights reserved; GSAP + mp4-muxer bundled under their own licenses)
+https://github.com/mrdoob/three.js.git | 3D engine: geometry, materials, particles, loaders, post effects | MIT
+https://github.com/pmndrs/react-three-fiber.git | React renderer for three.js (what @remotion/three uses) | MIT
+https://github.com/greensock/GSAP.git | timeline animation, advanced eases, SplitText, MorphSVG, DrawSVG, MotionPath | GreenSock standard no-charge license
+https://github.com/juliangarnier/anime.git | anime.js v4: staggers, timelines, SVG drawing, text effects | MIT
+https://github.com/motiondivision/motion.git | Motion (ex Framer Motion): easing curves, physics springs, layout animation | MIT
+https://github.com/airbnb/lottie-web.git | Lottie player for After Effects JSON animations | MIT
